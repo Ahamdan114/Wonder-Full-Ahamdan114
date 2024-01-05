@@ -1,0 +1,19 @@
+.skills-container {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.skills-title {
+    width: 20%;
+    font-size: 1.5rem;
+    margin-left: 330px;
+}
+
+.skills-list {
+    width: 90%;
+    margin-left: 50px;
+}
