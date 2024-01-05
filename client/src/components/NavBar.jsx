@@ -14,7 +14,7 @@ const NavBar = () => {
 
     return (
         <div className="nav-container">
-            <div className="nav-show">Ahmed.dev</div>
+            <div className="nav-show">Ahmed.code</div>
             <button className="nav-icon" onClick={toggleNav}>
                 ☰
             </button>

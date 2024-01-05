@@ -4,14 +4,22 @@ import Slider from "react-slick";
 import { FaGithub } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { useState, useEffect } from "react";
 import { introductionPage } from "../assets/profile-user";
 import { TbLiveView } from "react-icons/tb";
 import codingImage from "../assets/codingImage.jpg";
 
 const Projects = () => {
     const { projects, settings } = introductionPage;
-    
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prevSlide) => (prevSlide + 1) % projects.length);
+        }, 3000); 
+        return () => clearInterval(interval);
+    }, [projects.length]);
+
     return (
         <div className="project-container" id="Projects">
             <Slider {...settings} className="slider">
