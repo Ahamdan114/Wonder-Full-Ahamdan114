@@ -1,0 +1,35 @@
+.contact-container {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container > * {
+    margin-left: 40px;
+}
+
+.contact {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-title {
+    font-weight: bold;
+    height: 10vh;
+}
+
+.contact-additional {
+    display: flex;
+    align-items: center;
+}
+
+.contact-additional > * {
+    margin-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
