@@ -14,15 +14,15 @@
     list-style: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .skills-container {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-
+    
     .skills-list {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        flex-wrap: wrap;
     }
 }

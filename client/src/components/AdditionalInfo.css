@@ -2,4 +2,25 @@
     display: flex;
     flex-direction: column;
     font-size: 3vh;
+    flex-wrap: wrap;
+}
+
+.icon {
+    font-size: 3vh;
+}
+
+
+@media (max-width: 1000px) {
+    .contact-info {
+        font-size: 2.5vh;
+    }
+    
+}
+
+
+@media (max-width: 500px) {
+    .contact-info {
+        font-size: 2.5vh;
+    }
+    
 }

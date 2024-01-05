@@ -1,25 +1,19 @@
 .nav-container {
     width: 100%;
     height: 100%;
-
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 1px 5px gray;
-
     top: 0;
     z-index: 999;
     position: sticky;
-
     background-color: white;
 }
 
 .nav-show {
-    content: attr(data-text);
-
-    width: 60%;
+    width: 100px;
     padding: 30px 0;
     margin-left: 5%;
-
     font-size: 2rem;
     -webkit-animation: presentationMove 4s ease-in-out infinite;
     animation: presentationMove 4s ease-in-out infinite;
@@ -27,11 +21,9 @@
 
 .nav-list {
     width: 40%;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     list-style: none;
     cursor: pointer;
 }
@@ -40,9 +32,12 @@
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-
     font-weight: bold;
     transition: all 0.2s ease-in-out;
+}
+
+.nav-list > *:last-child {
+    margin-right: 50px;
 }
 
 .nav-list > *:hover {
@@ -50,14 +45,55 @@
     padding: 10px 20px;
 }
 
+.nav-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    height: 100%;
+    margin-top: 25px;
+    transition: all 1s ease-in-out;
+}
+
 @keyframes presentationMove {
     0% {
         transform: scale(1) translate(0, 0) rotate(0) skew(0);
     }
     50% {
-        transform: scale(1.05) translate(30px, -80px) rotate(-0.25deg) skew(10deg, -10deg);
+        transform: scale(1.05) translate(30px, -5px) rotate(0.05deg) skew(10deg, -10deg);
     }
     100% {
         transform: scale(1) translate(0, 0) rotate(0) skew(0);
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-show {
+        padding: 30px 0;
+        margin-left: 5%;
+        font-size: 1.2rem;
+    }
+
+    .nav-list {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    .nav-icon {
+        display: block;
+        margin-right: 5%;
+    }
+    .nav-list.active {
+        display: flex;
     }
 }

@@ -11,6 +11,7 @@ import codingImage from "../assets/codingImage.jpg";
 
 const Projects = () => {
     const { projects, settings } = introductionPage;
+    
     return (
         <div className="project-container" id="Projects">
             <Slider {...settings} className="slider">
@@ -20,7 +21,7 @@ const Projects = () => {
                             <div className="project-item">
                                 <div className="project-info">
                                     <div className="project-intro">Projects</div>
-                                    <h2 className="project-tite">{title}</h2>
+                                    <h2 className="project-title">{title}</h2>
                                     <p className="project-description">{description}</p>
                                     <div className="project-links">
                                         <a

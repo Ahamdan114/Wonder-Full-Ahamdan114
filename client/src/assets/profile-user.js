@@ -19,7 +19,7 @@ export const introductionPage = {
     aboutMeDescription:
         "Hello! I'm Hamdan Ahmed, a passionate and results-driven Fullstack Developer currently in my final year of studies. Based in Bucharest, Romania. I specialize in creating end-to-end web solutions that seamlessly blend functionality and aesthetics. I am a person of learning. One of my goals is to thrive in better understanding the world in which we are living in through numbers and other data types.",
     socials: [FiGithub, BsLinkedin],
-    skills: [FaHtml5, IoLogoCss3, SiExpress, GrReactjs],
+    skills: [FaHtml5, IoLogoCss3, SiExpress, GrReactjs,FaHtml5, IoLogoCss3, SiExpress, GrReactjs,FaHtml5, IoLogoCss3, SiExpress, GrReactjs,FaHtml5, IoLogoCss3, SiExpress, GrReactjs],
     navBar: ["Home", "About Me", "Projects", "Contact Me"],
     contacts: [FaLocationDot, IoMdMail],
     location: "Bucharest, Romania",
@@ -27,14 +27,14 @@ export const introductionPage = {
     projects: [
         {
             title: "Project 1",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             githubLink: "https://github.com/example/project1",
             liveLink: "https://example-project1.com",
             imageSrc: "project1.jpg",
         },
         {
             title: "Project 2",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             githubLink: "https://github.com/example/project2",
             liveLink: "https://example-project2.com",
             imageSrc: "project2.jpg",
