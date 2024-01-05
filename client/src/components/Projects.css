@@ -1,3 +1,107 @@
-.projects-container {
-    height: 150vh;
+.project-container {
+    overflow: hidden;
+}
+
+.project-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.project-info {
+    max-width: 50%;
+}
+
+.project-btn {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-btn:hover {
+    padding: 15px 25px;
+    border: 1px solid gray;
+}
+
+.project-intro {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-info > * {
+    transition: all 0.5s ease-in-out;
+}
+
+.project-title {
+    height: 15vh;
+}
+
+.project-description {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.project-background {
+    width: 40%;
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 1170px) {
+    .project-container {
+        flex-direction: column-reverse;
+    }
+    .project-container > * {
+        min-width: 50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .project-intro {
+        font-size: 1rem;
+    }
+
+    .project-title {
+        font-size: 1.4rem;
+        height: 10vh;
+    }
+
+    .project-description {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-intro {
+        font-size: 1rem;
+    }
+
+    .project-title {
+        font-size: 1.4rem;
+    }
+
+    .project-description {
+        width: 100%;
+    }
 }

@@ -10,8 +10,6 @@ import { GrReactjs } from "react-icons/gr";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 
-
-
 export const introductionPage = {
     title: "🚀 Fullstack Developer 🇷🇴",
     description:
@@ -26,4 +24,28 @@ export const introductionPage = {
     contacts: [FaLocationDot, IoMdMail],
     location: "Bucharest, Romania",
     mail: "hamdan.ahmed002@gmail.com",
+    projects: [
+        {
+            title: "Project 1",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            githubLink: "https://github.com/example/project1",
+            liveLink: "https://example-project1.com",
+            imageSrc: "project1.jpg",
+        },
+        {
+            title: "Project 2",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            githubLink: "https://github.com/example/project2",
+            liveLink: "https://example-project2.com",
+            imageSrc: "project2.jpg",
+        },
+    ],
+    settings: {
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    },
+
 };
