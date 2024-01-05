@@ -10,6 +10,7 @@ body {
     height: 100vh;
     scrollbar-width: thin;
     scrollbar-color: #4d7fff #ddd;
+    padding: 0;
 }
 
 body::-webkit-scrollbar {

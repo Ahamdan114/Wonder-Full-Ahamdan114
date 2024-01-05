@@ -10,7 +10,7 @@ const IntroductionCard = () => {
     const socials = introductionPage.socials;
 
     return (
-        <div className="dev-introduction">
+        <div className="dev-introduction" id="Home">
             <div className="dev-container">
                 <div className="dev-info">
                     <h1 className="dev-info-title">{title}</h1>

@@ -1,14 +1,19 @@
-import NavBar from "./components/NavBar";
-import IntroductionCard from "./components/IntroductionCard";
-import AboutMe from "./components/AboutMe";
-import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
+import {
+    NavBar,
+    IntroductionCard,
+    AboutMe,
+    Projects,
+    ContactMe,
+    Footer,
+} from "./components/index";
+
 function App() {
     return (
         <>
             <NavBar />
             <IntroductionCard />
             <AboutMe />
+            <Projects />
             <ContactMe />
             <Footer />
         </>

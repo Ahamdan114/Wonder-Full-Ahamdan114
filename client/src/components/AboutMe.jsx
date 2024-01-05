@@ -5,7 +5,7 @@ import codingImage from "../assets/codingImage.jpg";
 const AboutMe = () => {
     const { aboutMeTitle, aboutMeDescription } = introductionPage;
     return (
-        <div className="about-container">
+        <div className="about-container" id="About Me">
             <div className="about-info">
                 <div className="about-intro">About me</div>
                 <h1 className="about-title">{aboutMeTitle}</h1>

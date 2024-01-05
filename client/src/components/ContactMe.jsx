@@ -9,7 +9,7 @@ const ContactMe = () => {
         contacts: [FaLocationDot, IoMdMail],
     } = introductionPage;
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="Contact Me">
             <div className="contact">Contact</div>
             <h1 className="contact-title">Feel free! Get in touch below! 📬👇</h1>
             <div className="contact-additional">
