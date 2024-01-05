@@ -27,7 +27,7 @@ body::-webkit-scrollbar-button {
 }
 
 .icon {
-    margin-left: 20px;
+    margin-right: 20px;
     font-size: 35px;
     transition: font-size 0.3s ease;
 }
