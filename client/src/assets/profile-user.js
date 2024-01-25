@@ -22,12 +22,11 @@ export const introductionPage = {
     aboutMeDescription:
         "Hello! I'm Hamdan Ahmed, a passionate and results-driven Fullstack Developer currently in my final year of studies. Based in Bucharest, Romania. I specialize in creating end-to-end web solutions that seamlessly blend functionality and aesthetics. I am a person of learning. One of my goals is to thrive in better understanding the world in which we are living in through numbers and other data types.",
     socials: [FiGithub, BsLinkedin],
-    skills: [
-        FaHtml5,
-        IoLogoCss3,
-        SiExpress,
-        GrReactjs,
+    socialsLinks: [
+        "https://github.com/Ahamdan114/",
+        "https://www.linkedin.com/in/ahmed-iulian-hamdan/",
     ],
+    skills: [FaHtml5, IoLogoCss3, SiExpress, GrReactjs],
     navBar: ["Home", "About Me", "Projects", "Contact Me"],
     contacts: [FaLocationDot, IoMdMail],
     location: "Bucharest, Romania",
@@ -51,9 +50,9 @@ export const introductionPage = {
         },
     ],
     settings: {
-        dots: true,
+        dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
     },
