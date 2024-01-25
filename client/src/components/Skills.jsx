@@ -9,7 +9,9 @@ const Skills = () => {
             <h1 className="skills-title">Tech Toolkit |</h1>
                 <ul  className="skills-list">
                     {skills.map((Skill, index) => (
-                        <Skill key={index} className="icon" />
+                        <span className="icon" key={index}>
+                            <Skill />
+                        </span>
                     ))}
                 </ul>
         </div>
