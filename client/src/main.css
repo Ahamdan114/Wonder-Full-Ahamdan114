@@ -7,8 +7,8 @@
 }
 
 body {
-    height: 100vh;
-    width: 105%;
+    min-height: 100vh;
+    min-width: 100%;
     scrollbar-width: thin;
     scrollbar-color: #4d7fff #ddd;
     padding: 0;
