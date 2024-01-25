@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 104vh;
+    height: 80vh;
 }
 
 .dev-container {
@@ -34,7 +34,9 @@
 .dev-info-title {
     font-size: 4rem;
     line-height: 100%;
+    width: 100%;
     transition: all 1s ease-in-out;
+    display: block;
 }
 
 .dev-info-description {
@@ -100,8 +102,11 @@
     }
 
     .dev-info {
-        min-width: 55%;
-        width: 100%;
+        font-size: 4rem;
+        line-height: 100%;
+        max-width: 85%;
+        transition: all 1s ease-in-out;
+        display: block;
     }
 
     .dev-info-contacts {
@@ -109,14 +114,15 @@
         display: flex;
         justify-content: space-evenly;
     }
-}
 
-@media (max-width: 725px) {
     .dev-background {
-        height: 15rem;
-        width: 15rem;
+        height: 20rem;
+        width: 20rem;
         border: none;
     }
+}
+
+@media (max-width: 800px) {
 
     .dev-info-title {
         font-size: 2.5rem;
