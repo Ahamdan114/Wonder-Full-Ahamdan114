@@ -7,17 +7,19 @@ import Skills from "./Skills";
 
 const IntroductionCard = () => {
     const { title, description } = introductionPage;
-    const socials = introductionPage.socials;
+    const { socials, socialsLinks } = introductionPage;
 
     return (
-        <div className="dev-introduction" id="Home">
+        <div className="dev-introduction">
             <div className="dev-container">
                 <div className="dev-info">
                     <h1 className="dev-info-title">{title}</h1>
                     <p className="dev-info-description">{description}</p>
                     <span className="dev-info-contacts">
                         {socials.map((Social, index) => (
-                            <Social key={index} className="icon" />
+                            <a className="icon" key={index} href={socialsLinks[index]} target="_blank">
+                                <Social />
+                            </a>
                         ))}
                     </span>
                 </div>
