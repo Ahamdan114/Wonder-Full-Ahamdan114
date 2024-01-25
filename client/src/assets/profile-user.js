@@ -51,18 +51,43 @@ export const introductionPage = {
     mail: "hamdan.ahmed002@gmail.com",
     projects: [
         {
-            title: "Project 1",
-            description: "",
-            githubLink: "https://github.com/example/project1",
-            liveLink: "https://example-project1.com",
-            imageSrc: "project1.jpg",
+            title: "Moviex",
+            description: `
+                A Netflix website clone for movie streaming organized by component folders, facing challenges related to redundancy. 
+                This project provided insights into replicating website behavior, dynamically allocating classes for varied component displays.
+            `,
+            githubLink: "https://github.com/Ahamdan114/netflix-clone",
+            liveLink: "https://example-project2.com",
+            imageSrc: "assets/Moviex.png",
+        },{
+            title: "Open-future-AI",
+            description: `
+                A website showcasing AI's potential future impact, organized by components and layout containers. 
+                Challenges in naming JSX tag classes were resolved using project paths. 
+                This extensive project refined component reuse efficiency and enhanced styling skills with a focus on details and contrasts.
+            `,
+            githubLink: "https://github.com/Ahamdan114/open-minded-future-ai",
+            liveLink: "https://example-project2.com",
+            imageSrc: "assets/FutureAI.png",
         },
         {
-            title: "Project 2",
-            description: "",
-            githubLink: "https://github.com/example/project2",
-            liveLink: "https://example-project2.com",
-            imageSrc: "project2.jpg",
+            title: "Film-Mosaic",
+            description: `
+                This movie poster collection website lacks specific organizational structure due to its single component rendered multiple times. 
+                Development challenges centered around event handling, and the project provided learning opportunities in making dynamic API calls for data retrieval.
+            `,
+            githubLink: "https://github.com/Ahamdan114/Film-Mosaic",
+            liveLink: "https://ahamdan114.github.io/Film-Mosaic/",
+            imageSrc: "assets/FilmMosaic.png",
+        },
+        {
+            title: "Smart-Expense",
+            description: `
+                An expense tracking application organized by components and context, with challenges in circulating props throughout the project. 
+                The project taught effective state management using the Context API.
+            `,
+            githubLink: "https://github.com/Ahamdan114/Smart-Expense",
+            liveLink: "https://ahamdan114.github.io/Smart-Expense/",
         },
     ],
     settings: {
@@ -74,3 +99,19 @@ export const introductionPage = {
         arrows: false,
     },
 };
+
+
+
+// {
+//     title: "StormDB",
+//     description: `
+//         This project involves creating and utilizing an SQL engine. 
+//         The code is structured in a pipeline fashion, with stages for parsing syntax, logical interpretation, and file writing. 
+//         Organizational and structural challenges of the database were addressed by implementing a clear plan, emphasizing explicit code writing. 
+//         The project taught the importance of pre-planned organization and revealed many gaps in my programming knowledge which helped me become more aware in advance of
+//         potential issues that might occur.
+//     `,
+//     githubLink: "https://github.com/Ahamdan114/StormDB",
+//     liveLink: "https://example-project1.com",
+//     imageSrc: "project1.jpg",
+// },

@@ -7,12 +7,16 @@ import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect } from "react";
 import { introductionPage } from "../assets/profile-user";
 import { TbLiveView } from "react-icons/tb";
-import codingImage from "../assets/codingImage.jpg";
+import Moviex from "../assets/Moviex.png";
+import FutureAI from "../assets/FutureAI.png";
+import FilmMosaic from "../assets/FilmMosaic.png";
+import SmartExpense from "../assets/SmartExpense.png";
+
 
 const Projects = () => {
     const { projects, settings } = introductionPage;
     const [currentSlide, setCurrentSlide] = useState(0);
-
+    const imageArr = [Moviex, FutureAI, FilmMosaic, SmartExpense]
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % projects.length);
@@ -24,7 +28,7 @@ const Projects = () => {
         <div className="project-container" id="Projects">
             <Slider {...settings} className="slider">
                 {projects.map(
-                    ({ title, description, githubLink, liveLink, imageSrc }, index) => (
+                    ({ title, description, githubLink, liveLink }, index) => (
                         <div key={index} className="slider-child">
                             <div className="project-item">
                                 <div className="project-info">
@@ -56,7 +60,7 @@ const Projects = () => {
                                 <div className="project-background">
                                     <img
                                         className="project-img"
-                                        src={codingImage}
+                                        src={imageArr[index]}
                                         alt={`Project ${index + 1}`}
                                     />
                                 </div>
