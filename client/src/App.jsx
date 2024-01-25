@@ -9,14 +9,14 @@ import {
 
 function App() {
     return (
-        <>
+        <div id="Home">
             <NavBar />
             <IntroductionCard />
             <AboutMe />
             <Projects />
             <ContactMe />
             <Footer />
-        </>
+        </div>
     );
 }
 
