@@ -1,3 +1,5 @@
+// Contacts
+
 import { FiGithub } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 
@@ -16,7 +18,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 
 // Tables
-
 import { DiMongodb } from "react-icons/di";
 import { TbSql } from "react-icons/tb";
 
@@ -51,16 +52,14 @@ export const introductionPage = {
     projects: [
         {
             title: "Project 1",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "",
             githubLink: "https://github.com/example/project1",
             liveLink: "https://example-project1.com",
             imageSrc: "project1.jpg",
         },
         {
             title: "Project 2",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description: "",
             githubLink: "https://github.com/example/project2",
             liveLink: "https://example-project2.com",
             imageSrc: "project2.jpg",

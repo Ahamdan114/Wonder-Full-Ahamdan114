@@ -4,5 +4,7 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
+import Favicon from './Favicon';
 
-export {NavBar, IntroductionCard, AboutMe, Projects, ContactMe, Footer}
+
+export {NavBar, IntroductionCard, AboutMe, Projects, ContactMe, Footer, Favicon}
