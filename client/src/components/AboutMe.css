@@ -1,6 +1,6 @@
 .about-container {
     height: 85vh;
-    background-color: #afb4b7;
+    background-image: linear-gradient(to right, #f5f5f5, #e0e0e0);
 
     display: flex;
     justify-content: space-evenly;
@@ -34,6 +34,7 @@
 
 .about-background {
     width: 40%;
+    margin-right: 5%;
 }
 
 .about-img {
