@@ -2,7 +2,7 @@ import "./Footer.css";
 import { introductionPage } from "../assets/profile-user.js";
 
 const Footer = () => {
-    const socials = introductionPage.socials;
+    const { socials, socialsLinks } = introductionPage;
 
     const date = new Date().getFullYear();
     return (
@@ -12,7 +12,9 @@ const Footer = () => {
             </div>
             <span className="dev-info-contacts">
                 {socials.map((Social, index) => (
-                    <Social key={index} className="icon" />
+                    <a className="icon" key={index} href={socialsLinks[index]} target="_blank">
+                        <Social color="white"/>
+                    </a>
                 ))}
             </span>
         </div>
