@@ -33,8 +33,17 @@ body::-webkit-scrollbar-button {
     margin-right: 20px;
     font-size: 35px;
     transition: font-size 0.3s ease;
+    color: black;
 }
 
 .icon:hover {
     font-size: 40px;
+}
+
+
+@media (max-width: 1000px) {
+    * > svg {
+        margin-top: 20px;
+        font-size: 40px;
+    }
 }
