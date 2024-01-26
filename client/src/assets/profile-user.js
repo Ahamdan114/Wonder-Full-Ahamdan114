@@ -99,6 +99,9 @@ export const introductionPage = {
         arrows: false,
         autoplay: true,
         autoplaySpeed: 10 * 1000,
+        loop: true,
+        pauseOnHover: false,
+        pauseOnFocus: true,
     },
 };
 
