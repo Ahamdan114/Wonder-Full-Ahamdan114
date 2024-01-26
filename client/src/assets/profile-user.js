@@ -59,7 +59,8 @@ export const introductionPage = {
             githubLink: "https://github.com/Ahamdan114/netflix-clone",
             liveLink: "https://ahamdan114.github.io/Moviex/",
             imageSrc: "assets/Moviex.png",
-        },{
+        },
+        {
             title: "Open-future-AI",
             description: `
                 A website showcasing AI's potential future impact, organized by components and layout containers. 
@@ -105,14 +106,12 @@ export const introductionPage = {
     },
 };
 
-
-
 // {
 //     title: "StormDB",
 //     description: `
-//         This project involves creating and utilizing an SQL engine. 
-//         The code is structured in a pipeline fashion, with stages for parsing syntax, logical interpretation, and file writing. 
-//         Organizational and structural challenges of the database were addressed by implementing a clear plan, emphasizing explicit code writing. 
+//         This project involves creating and utilizing an SQL engine.
+//         The code is structured in a pipeline fashion, with stages for parsing syntax, logical interpretation, and file writing.
+//         Organizational and structural challenges of the database were addressed by implementing a clear plan, emphasizing explicit code writing.
 //         The project taught the importance of pre-planned organization and revealed many gaps in my programming knowledge which helped me become more aware in advance of
 //         potential issues that might occur.
 //     `,
