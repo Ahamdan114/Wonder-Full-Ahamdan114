@@ -57,7 +57,7 @@ export const introductionPage = {
                 This project provided insights into replicating website behavior, dynamically allocating classes for varied component displays.
             `,
             githubLink: "https://github.com/Ahamdan114/netflix-clone",
-            liveLink: "https://example-project2.com",
+            liveLink: "https://ahamdan114.github.io/Moviex/",
             imageSrc: "assets/Moviex.png",
         },{
             title: "Open-future-AI",
@@ -67,7 +67,7 @@ export const introductionPage = {
                 This extensive project refined component reuse efficiency and enhanced styling skills with a focus on details and contrasts.
             `,
             githubLink: "https://github.com/Ahamdan114/open-minded-future-ai",
-            liveLink: "https://example-project2.com",
+            liveLink: "https://ahamdan114.github.io/open-minded-future-ai/",
             imageSrc: "assets/FutureAI.png",
         },
         {
@@ -93,10 +93,12 @@ export const introductionPage = {
     settings: {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 2 * 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 10 * 1000,
     },
 };
 
