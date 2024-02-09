@@ -25,11 +25,11 @@ export const introductionPage = {
     tabIcon: "",
     title: "🚀 Fullstack Developer 🇷🇴",
     description:
-        "Fullstack developer in final year, skilled in different technologies related to JavaScript, such as React.js, Express.js, Node.js, MongoDB and others. Based in Bucharest, Romania. Passionate about crafting seamless web experiences.",
+        "Fullstack developer, skilled in different technologies related to JavaScript, such as React.js, Express.js, Node.js, MongoDB and others. Based in Bucharest, Romania. Passionate about crafting seamless web experiences.",
     aboutMeTitle:
-        "Passionate Fullstack Developer and life-long learner based in Bucharest, Romania | Hamdan Ahmed",
+        "Passionate Fullstack Developer and life-long learner based in Bucharest, Romania | Ahmed-Iulian Hamdan",
     aboutMeDescription: `
-        Hello! I'm Hamdan Ahmed, a final-year Fullstack Developer based in Bucharest, Romania. 
+        Hello! I'm Ahmed-Iulian Hamdan, a Fullstack Developer based in Bucharest, Romania. 
         I specialize in developing web solutions that excel in both functionality and visual appeal, providing a polished user experience.`,
     socials: [FiGithub, BsLinkedin],
     socialsLinks: [
