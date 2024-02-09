@@ -54,7 +54,7 @@ export const introductionPage = {
             title: "Moviex",
             description: `
                 A Netflix website clone for movie streaming organized by component folders, facing challenges related to redundancy. 
-                This project provided insights into replicating website behavior, dynamically allocating classes for varied component displays.
+                This project provides insights into replicating website behavior, dynamically allocating classes for varied component displays.
             `,
             githubLink: "https://github.com/Ahamdan114/netflix-clone",
             liveLink: "https://ahamdan114.github.io/Moviex/",
@@ -75,7 +75,7 @@ export const introductionPage = {
             title: "Film-Mosaic",
             description: `
                 This movie poster collection website lacks specific organizational structure due to its single component rendered multiple times. 
-                Development challenges centered around event handling, and the project provided learning opportunities in making dynamic API calls for data retrieval.
+                Development challenges centered around event handling, and the project provides learning opportunities in making dynamic API calls for data retrieval.
             `,
             githubLink: "https://github.com/Ahamdan114/Film-Mosaic",
             liveLink: "https://ahamdan114.github.io/Film-Mosaic/",
