@@ -31,16 +31,16 @@ button.slick-arrow:before {
 }
 
 .project-btn {
-    padding: 10px 20px;
+    padding: 5px 15px;
     border: none;
     background: transparent;
     border-radius: 10px;
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
+    font-size: 27px;
+    transition: all 0.25s ease-in-out;
 }
 
 .project-btn:hover {
-    padding: 15px 25px;
+    padding: 10px 25px;
     border: 1px solid gray;
 }
 
@@ -69,18 +69,20 @@ button.slick-arrow:before {
 }
 
 .project-img {
-    height: 300px;
+    height: auto;
     width: 100%;
-
+    object-fit: scale-down;
     transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 1170px) {
+
     .project-item {
         flex-direction: column-reverse;
         width: 100%;
-        justify-content: none;
+        justify-content: center;
     }
+
     .project-item > * {
         min-width: 50%;
         margin-top: 50px;
@@ -93,6 +95,7 @@ button.slick-arrow:before {
 }
 
 @media (max-width: 950px) {
+
     .project-intro {
         font-size: 1rem;
     }
@@ -106,9 +109,25 @@ button.slick-arrow:before {
         font-size: 1rem;
         line-height: 1.25rem;
     }
+
+    .project-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .project-btn {
+        font-size: 20px;
+    }
+
+    .project-btn:hover {
+        padding: 5px 5px;
+        border: 1px solid gray;
+    }
+
 }
 
 @media (max-width: 480px) {
+
     .project-intro {
         font-size: 1rem;
     }
@@ -121,4 +140,28 @@ button.slick-arrow:before {
         width: 100%;
         font-size: 0.8rem;
     }
+
+    .project-btn {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .project-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .project-item {
+        justify-content: none;
+    }
+
+    /* .project-info {
+        
+    }
+    
+    .project-background {
+        
+    } */
 }

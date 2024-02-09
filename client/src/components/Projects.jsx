@@ -17,6 +17,8 @@ const Projects = () => {
     const { projects, settings } = introductionPage;
     const [currentSlide, setCurrentSlide] = useState(0);
     const imageArr = [Moviex, FutureAI, FilmMosaic, SmartExpense]
+
+    
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % projects.length);
