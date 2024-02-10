@@ -55,7 +55,7 @@ const Projects = () => {
                                             <button className="project-btn">
                                                 <TbLiveView /> Live
                                             </button>
-                                        </a>
+                                        </a> 
                                     </div>
                                 </div>
 

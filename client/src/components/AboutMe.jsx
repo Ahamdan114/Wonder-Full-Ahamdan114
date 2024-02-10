@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <h1 className="about-title">{aboutMeTitle}</h1>
                 <p className="about-description">{aboutMeDescription}</p>
             </div>
-            <div className="about-background">
+            <div className="about-background"> 
                 <img className="about-img" src={codingImage} alt="" />
             </div>
         </div>

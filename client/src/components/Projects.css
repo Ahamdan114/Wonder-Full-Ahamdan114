@@ -89,12 +89,17 @@ button.slick-arrow:before {
     }
 
     .project-img {
+        margin-top: 20%;
         height: 300px;
         transition: all 0.5s ease-in-out;
     }
+
+    .project-btn {
+        margin-bottom: 150%;
+    }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px) and (max-height: 700px) {
 
     .project-intro {
         font-size: 1rem;
@@ -102,7 +107,7 @@ button.slick-arrow:before {
 
     .project-title {
         font-size: 1.4rem;
-        height: 3vh;
+        height: 6vh;
     }
 
     .project-description {
@@ -111,12 +116,14 @@ button.slick-arrow:before {
     }
 
     .project-img {
+        margin-top: 20%;
         height: auto;
         width: 100%;
     }
 
     .project-btn {
         font-size: 20px;
+        margin-bottom: 50px;
     }
 
     .project-btn:hover {
@@ -126,7 +133,7 @@ button.slick-arrow:before {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-height: 561px) {
 
     .project-intro {
         font-size: 1rem;
